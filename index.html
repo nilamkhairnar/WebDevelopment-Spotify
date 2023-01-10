@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="img/logo.png" alt="Spotify" >
+                Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songList">
+            <h2>Best of SRK </h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="img/Bole chudiyan.jfif" alt="Bole chudiyan" >
+                    <span class="songName">Bole chudiyan</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="img/Dholna.jfif" alt="1" >
+                    <span class="songName">Dholna</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="img/Dil To Pagal Hai.jfif" alt="1" >
+                    <span class="songName">Dil To Pagal Hai</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="img/Kuch Kuch Hota Hai.jfif" alt="1" >
+                    <span class="songName" >Kuch Kuch Hota Hai</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="img/Suraj Hua Maddham.jfif" alt="1" >
+                    <span class="songName">Suraj Hua Maddham</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="img/Yeh Ladka Hai Allah.jfif" alt="1" >
+                    <span class="songName">Yeh Ladka Hai Allah</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            05.34
+                            <i class="fa-solid songItemPlay fa-circle-play"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  value="0" min="0" max="100">
+        <div class="icons" > 
+            <!--fontawesome icons-->    
+            <i class="fa-solid  fa-backward fa-2x"></i>
+            <i class="fa-solid  fa-circle-play fa-2x" id="masterPlay"></i>
+            <i class="fa-solid  fa-forward fa-2x"></i>
+            
+        </div>
+        <div class="songInfo">
+            <img src="img/playing.gif" width="130px" alt="" id="gif">
+            <span>
+                Bole chudiyan
+            </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/844d1abd4b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
